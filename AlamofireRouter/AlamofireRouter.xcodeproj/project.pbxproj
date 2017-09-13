@@ -14,6 +14,7 @@
 		8D7244281F690C42000A4147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7244271F690C42000A4147 /* Assets.xcassets */; };
 		8D72442B1F690C42000A4147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7244291F690C42000A4147 /* LaunchScreen.storyboard */; };
 		8D7244331F691B2D000A4147 /* AlamofireRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7244321F691B2D000A4147 /* AlamofireRouter.swift */; };
+		8D7244351F69256A000A4147 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7244341F69256A000A4147 /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8D72442A1F690C42000A4147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D72442C1F690C42000A4147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D7244321F691B2D000A4147 /* AlamofireRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireRouter.swift; sourceTree = "<group>"; };
+		8D7244341F69256A000A4147 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		A8DA5F28B9AB6CC05D8AFC68 /* Pods_AlamofireRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlamofireRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C87222ED2A78FEC57B1BC392 /* Pods-AlamofireRouter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireRouter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireRouter/Pods-AlamofireRouter.debug.xcconfig"; sourceTree = "<group>"; };
 		EE1EB14831FBDCAE084FC9B5 /* Pods-AlamofireRouter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireRouter.release.xcconfig"; path = "Pods/Target Support Files/Pods-AlamofireRouter/Pods-AlamofireRouter.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				8D7244291F690C42000A4147 /* LaunchScreen.storyboard */,
 				8D72442C1F690C42000A4147 /* Info.plist */,
 				8D7244321F691B2D000A4147 /* AlamofireRouter.swift */,
+				8D7244341F69256A000A4147 /* TodoModel.swift */,
 			);
 			path = AlamofireRouter;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7244331F691B2D000A4147 /* AlamofireRouter.swift in Sources */,
+				8D7244351F69256A000A4147 /* TodoModel.swift in Sources */,
 				8D7244231F690C42000A4147 /* ViewController.swift in Sources */,
 				8D7244211F690C42000A4147 /* AppDelegate.swift in Sources */,
 			);
