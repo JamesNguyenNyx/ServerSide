@@ -14,6 +14,9 @@
 		8D7800EE1F6F871700B5739D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7800EC1F6F871700B5739D /* LaunchScreen.storyboard */; };
 		8D7800F61F6F87A300B5739D /* GithubAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7800F51F6F87A300B5739D /* GithubAPIManager.swift */; };
 		8D7800F81F6F88DB00B5739D /* GistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7800F71F6F88DB00B5739D /* GistRouter.swift */; };
+		8D7801091F6FB74800B5739D /* Git.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7801081F6FB74800B5739D /* Git.swift */; };
+		8D78010C1F6FB98E00B5739D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D78010A1F6FB98E00B5739D /* MasterViewController.swift */; };
+		8D78010D1F6FB98E00B5739D /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D78010B1F6FB98E00B5739D /* MasterViewController.xib */; };
 		AC986A8E35C0DB8B0E2D0F2E /* Pods_RestAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CD4CAE1C3C5206406940DD7 /* Pods_RestAPI.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,6 +31,9 @@
 		8D7800EF1F6F871700B5739D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D7800F51F6F87A300B5739D /* GithubAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubAPIManager.swift; sourceTree = "<group>"; };
 		8D7800F71F6F88DB00B5739D /* GistRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GistRouter.swift; sourceTree = "<group>"; };
+		8D7801081F6FB74800B5739D /* Git.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Git.swift; sourceTree = "<group>"; };
+		8D78010A1F6FB98E00B5739D /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8D78010B1F6FB98E00B5739D /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
 		CA0BFAC439FEEAFFA5ECF070 /* Pods-RestAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPI/Pods-RestAPI.debug.xcconfig"; sourceTree = "<group>"; };
 		D903345562F283D2D2C20D8C /* Pods-RestAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestAPI.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestAPI/Pods-RestAPI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,6 +96,9 @@
 				8D7800EF1F6F871700B5739D /* Info.plist */,
 				8D7800F51F6F87A300B5739D /* GithubAPIManager.swift */,
 				8D7800F71F6F88DB00B5739D /* GistRouter.swift */,
+				8D7801081F6FB74800B5739D /* Git.swift */,
+				8D78010A1F6FB98E00B5739D /* MasterViewController.swift */,
+				8D78010B1F6FB98E00B5739D /* MasterViewController.xib */,
 			);
 			path = RestAPI;
 			sourceTree = "<group>";
@@ -157,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D78010D1F6FB98E00B5739D /* MasterViewController.xib in Resources */,
 				8D7800EE1F6F871700B5739D /* LaunchScreen.storyboard in Resources */,
 				8D7800EB1F6F871700B5739D /* Assets.xcassets in Resources */,
 				8D7800E91F6F871700B5739D /* Main.storyboard in Resources */,
@@ -220,8 +230,10 @@
 			files = (
 				8D7800F61F6F87A300B5739D /* GithubAPIManager.swift in Sources */,
 				8D7800E61F6F871700B5739D /* ViewController.swift in Sources */,
+				8D78010C1F6FB98E00B5739D /* MasterViewController.swift in Sources */,
 				8D7800E41F6F871700B5739D /* AppDelegate.swift in Sources */,
 				8D7800F81F6F88DB00B5739D /* GistRouter.swift in Sources */,
+				8D7801091F6FB74800B5739D /* Git.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
